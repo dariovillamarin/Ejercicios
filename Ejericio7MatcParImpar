@@ -1,0 +1,10 @@
+numero = int(input("Ingrese un número entero: "))
+
+match numero:
+    case 0:
+        print("El número es cero")
+    case numero if numero % 2 == 0:
+        print("El número es Par")
+    case numero if numero % 2 != 0:
+        print("El número es Impar")
+
